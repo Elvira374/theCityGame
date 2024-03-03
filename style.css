@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f0ffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+.content {
+    background-image: url(city.png);
+    height: 100vh;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom 100px center;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+.form {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.btns-input {
+    flex: 2;
+    height: 40px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.btns-input:focus {
+    outline: 1px solid #3e5f8a;
+}
+.btns-btn {
+    flex: 1;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background: #3e5f8a;
+    color: #fff;
+    transition: all .3s;
+}
+.btns-btn:active {
+    transform: scale(1.1);
+    background: #00416a;
+}
+
